@@ -1,0 +1,67 @@
+@baseUrl = https://localhost:7018
+@token = YOUR_TOKEN_HERE
+
+### Get all dishes (requires auth)
+GET {{baseUrl}}/dishes
+Authorization: Bearer {{token}}
+
+### Get all dishes - filter by name (requires auth)
+GET {{baseUrl}}/dishes?name=Mussels
+Authorization: Bearer {{token}}
+
+### Get a dish by id (Rendang) (requires auth)
+GET {{baseUrl}}/dishes/fd630a57-2352-4731-b25c-db9cc7601b16
+Authorization: Bearer {{token}}
+
+### Get a dish by name (AllowAnonymous — no token needed)
+GET {{baseUrl}}/dishes/Rendang
+
+### Get ingredients for a dish (Rendang) (requires auth)
+GET {{baseUrl}}/dishes/fd630a57-2352-4731-b25c-db9cc7601b16/ingredients
+Authorization: Bearer {{token}}
+
+### Get a dish that doesn't exist (requires auth)
+GET {{baseUrl}}/dishes/00000000-0000-0000-0000-000000000000
+Authorization: Bearer {{token}}
+
+### Create a dish (requires RequireAdminFromBelgium policy)
+POST {{baseUrl}}/dishes
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "name": "Hawaiian Pizza"
+}
+
+### Update a dish (Rendang) (requires RequireAdminFromBelgium policy)
+PUT {{baseUrl}}/dishes/fd630a57-2352-4731-b25c-db9cc7601b16
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "name": "Rendang (updated)"
+}
+
+### Delete a dish (Fish Masala) (requires RequireAdminFromBelgium policy)
+DELETE {{baseUrl}}/dishes/98929bd4-f099-41eb-a994-f1918b724b5a
+Authorization: Bearer {{token}}
+
+### Delete a dish that doesn't exist (requires RequireAdminFromBelgium policy)
+DELETE {{baseUrl}}/dishes/00000000-0000-0000-0000-000000000000
+Authorization: Bearer {{token}}
+
+### Create a dish with invalid name (too short) - should return 400
+POST {{baseUrl}}/dishes
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "name": "X"
+}
+
+### Create a dish with empty body - should return 400
+POST {{baseUrl}}/dishes
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{}
