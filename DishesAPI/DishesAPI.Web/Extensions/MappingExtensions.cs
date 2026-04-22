@@ -14,6 +14,14 @@ public static class MappingExtensions
         };
     }
 
+    public static Dish ToDish(this DishCreateDto dishCreateDto)
+    {
+        return new Dish
+        {
+            Name = dishCreateDto.Name
+        };
+    }
+
     public static IEnumerable<DishDto> ToDishDtoList(this IEnumerable<Dish> dishes) 
     { 
         return dishes.Select(d => d.ToDishDto());

@@ -28,7 +28,6 @@ Authorization: Bearer {{token}}
 POST {{baseUrl}}/dishes
 Content-Type: application/json
 Authorization: Bearer {{token}}
-
 {
     "name": "Hawaiian Pizza"
 }
@@ -37,7 +36,6 @@ Authorization: Bearer {{token}}
 PUT {{baseUrl}}/dishes/fd630a57-2352-4731-b25c-db9cc7601b16
 Content-Type: application/json
 Authorization: Bearer {{token}}
-
 {
     "name": "Rendang (updated)"
 }
@@ -54,7 +52,6 @@ Authorization: Bearer {{token}}
 POST {{baseUrl}}/dishes
 Content-Type: application/json
 Authorization: Bearer {{token}}
-
 {
     "name": "X"
 }
@@ -63,5 +60,8 @@ Authorization: Bearer {{token}}
 POST {{baseUrl}}/dishes
 Content-Type: application/json
 Authorization: Bearer {{token}}
-
 {}
+
+### Test Error
+GET {{baseUrl}}/error
+Authorization: Bearer {{token}}
