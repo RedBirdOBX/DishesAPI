@@ -22,9 +22,14 @@ public static class MappingExtensions
         };
     }
 
-    public static IEnumerable<DishDto> ToDishDtoList(this IEnumerable<Dish> dishes) 
-    { 
+    public static IEnumerable<DishDto> ToDishDtoList(this IEnumerable<Dish> dishes)
+    {
         return dishes.Select(d => d.ToDishDto());
+    }
+
+    public static void UpdateDishFromDto(this Dish dish, DishUpdateDto dishUpdateDto)
+    {
+        dish.Name = dishUpdateDto.Name;
     }
 
     public static IngredientDto ToIngredientDto(this Ingredient ingredient, Guid dishId)
