@@ -2,10 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/DishesAPI/.vs/DishesAPI.slnx
-/DishesAPI/DishesAPI.Web/obj
-/DishesAPI/.vs
-/DishesAPI/DishesAPI.Web/bin/Debug/net10.0
-/DishesAPI/DishesAPI.Web/Dishes.db-shm
-/DishesAPI/DishesAPI.Web/Dishes.db-wal
+/src/DishesAPI/.vs/DishesAPI.slnx
+/src/DishesAPI/DishesAPI.Web/obj
+/src/DishesAPI/.vs
+/src/DishesAPI/DishesAPI.Web/bin/Debug/net10.0
+/src/DishesAPI/DishesAPI.Web/Dishes.db-shm
+/src/DishesAPI/DishesAPI.Web/Dishes.db-wal
