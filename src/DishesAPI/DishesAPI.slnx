@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Docs/">
+    <File Path="../../ReadMe.md" />
+  </Folder>
+  <Project Path="DishesAPI.Web/DishesAPI.Web.csproj" />
+</Solution>

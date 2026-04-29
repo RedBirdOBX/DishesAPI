@@ -1,7 +1,0 @@
-<Solution>
-  <Folder Name="/Docs/">
-    <File Path="building-minimal-apis-asp-dot-net-core-10.zip" />
-    <File Path="DishesAPI.Web/ReadMe.md" />
-  </Folder>
-  <Project Path="DishesAPI.Web/DishesAPI.Web.csproj" />
-</Solution>

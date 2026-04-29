@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\src\\DishesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{208BA388-4CEE-2CBF-559C-5607C099C1F8}|Docs{208BA388-4CEE-2CBF-559C-5607C099C1F8}|C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\ReadMe.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBDA132-8C64-5BF2-790E-18379B1F68EA}|DishesAPI.Web\\DishesAPI.Web.csproj|c:\\data\\dev projects\\githubrepos\\dishesapi\\src\\dishesapi\\dishesapi.web\\dishesapi.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0EBDA132-8C64-5BF2-790E-18379B1F68EA}|DishesAPI.Web\\DishesAPI.Web.csproj|solutionrelative:dishesapi.web\\dishesapi.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBDA132-8C64-5BF2-790E-18379B1F68EA}|DishesAPI.Web\\DishesAPI.Web.csproj|c:\\data\\dev projects\\githubrepos\\dishesapi\\src\\dishesapi\\dishesapi.web\\endpointhandlers\\disheshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBDA132-8C64-5BF2-790E-18379B1F68EA}|DishesAPI.Web\\DishesAPI.Web.csproj|solutionrelative:dishesapi.web\\endpointhandlers\\disheshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReadMe.md",
+              "DocumentMoniker": "C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\ReadMe.md",
+              "RelativeDocumentMoniker": "..\\..\\ReadMe.md",
+              "ToolTip": "C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\ReadMe.md",
+              "RelativeToolTip": "..\\..\\ReadMe.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-29T11:17:46.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DishesAPI.Web.http",
+              "DocumentMoniker": "C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\src\\DishesAPI\\DishesAPI.Web\\DishesAPI.Web.http",
+              "RelativeDocumentMoniker": "DishesAPI.Web\\DishesAPI.Web.http",
+              "ToolTip": "C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\src\\DishesAPI\\DishesAPI.Web\\DishesAPI.Web.http",
+              "RelativeToolTip": "DishesAPI.Web\\DishesAPI.Web.http",
+              "ViewState": "AgIAACMAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-28T11:30:19.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DishesHandlers.cs",
+              "DocumentMoniker": "C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\src\\DishesAPI\\DishesAPI.Web\\EndpointHandlers\\DishesHandlers.cs",
+              "RelativeDocumentMoniker": "DishesAPI.Web\\EndpointHandlers\\DishesHandlers.cs",
+              "ToolTip": "C:\\Data\\Dev Projects\\GitHubRepos\\DishesAPI\\src\\DishesAPI\\DishesAPI.Web\\EndpointHandlers\\DishesHandlers.cs",
+              "RelativeToolTip": "DishesAPI.Web\\EndpointHandlers\\DishesHandlers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:19:18.917Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
