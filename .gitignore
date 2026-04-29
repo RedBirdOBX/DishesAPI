@@ -7,3 +7,5 @@
 /DishesAPI/DishesAPI.Web/obj
 /DishesAPI/.vs
 /DishesAPI/DishesAPI.Web/bin/Debug/net10.0
+/DishesAPI/DishesAPI.Web/Dishes.db-shm
+/DishesAPI/DishesAPI.Web/Dishes.db-wal
