@@ -1,5 +1,8 @@
 @baseUrl = https://localhost:7018
-@token = YOUR_TOKEN_HERE
+#@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InNoYW5lIiwic3ViIjoic2hhbmUiLCJqdGkiOiIyN2NlNThmIiwiYXVkIjoibWVudS1hcGkiLCJuYmYiOjE3Nzc2MzQ4MDIsImV4cCI6MTc4NTU4MzYwMiwiaWF0IjoxNzc3NjM0ODA5LCJpc3MiOiJkb3RuZXQtdXNlci1qd3RzIn0.z1753EmKJMvkSqCvgptAnWkPHRYRhwei-VxHazPY6os
+
+# token with role "Admin" and country "USA"
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InNoYW5lIiwic3ViIjoic2hhbmUiLCJqdGkiOiJmMGRlZjQ4NCIsInJvbGUiOiJBZG1pbiIsImNvdW50cnkiOiJVU0EiLCJhdWQiOiJtZW51LWFwaSIsIm5iZiI6MTc3Nzg5NDI4MCwiZXhwIjoxNzg1ODQzMDgwLCJpYXQiOjE3Nzc4OTQyODAsImlzcyI6ImRvdG5ldC11c2VyLWp3dHMifQ.POmwb7ZNGU_gf4knEF8No2WwZ0lYfAEsQbXn83oulrk
 
 ### Get all dishes (requires auth)
 GET {{baseUrl}}/dishes

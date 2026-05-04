@@ -10,16 +10,18 @@ public static class EndpointRouterBuilderExtensions
         var dishEndpoints = endpointRouteBuilder.MapGroup("/dishes");
 
         // dishes - uses the route pattern and the method **delegate**
-        dishEndpoints.MapGet("", DishesHandlers.GetDishesAsync).WithName("GetDishes");
+        dishEndpoints.MapGet("", DishesHandlers.GetDishesAsync).RequireAuthorization().WithName("GetDishes");
 
         // dish by Id
-        dishEndpoints.MapGet("/{dishId:guid}", DishesHandlers.GetDishByIdAsync).WithName("GetDishById");
+        dishEndpoints.MapGet("/{dishId:guid}", DishesHandlers.GetDishByIdAsync).AllowAnonymous().WithName("GetDishById");
 
         // dish by name
         dishEndpoints.MapGet("/{dishName}", DishesHandlers.GetDIshByNameAsync).WithName("GetDishByName");
 
         // dish create
-        dishEndpoints.MapPost("", DishesHandlers.CreateDishAsync).WithName("CreateDish");
+        dishEndpoints.MapPost("", DishesHandlers.CreateDishAsync)
+                        .RequireAuthorization("MustBeAdmin")
+                        .WithName("CreateDish");
 
         // dish update
         dishEndpoints.MapPut("/{dishId}", DishesHandlers.UpdateDishAsync).WithName("UpdateDish");
